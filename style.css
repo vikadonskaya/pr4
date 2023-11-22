@@ -1,0 +1,47 @@
+.menu{
+  width: 320px;
+  height: 1024px;
+  background-color: rgb(251, 252, 253);
+  box-shadow: 35px 35px 40px 0px rgb(131, 131, 131);
+}
+.left{
+  display: flex;
+  gap: 10px;
+}
+.right{
+  margin-left: 60px;
+}
+.point{
+  margin: 32px 0 32px 10px;
+}
+.point:hover {
+  color: #7e7e82;
+}
+.point:hover::before{
+  content: "";
+  position: absolute;
+  left: 5px;
+  width: 3px;
+  height: 16px;
+  background-color: aquamarine;
+}
+.list {
+  margin: 20px 0 50px 0;
+  font-size: 16px;
+}
+.lwIcon{
+  margin-top: 70px;
+  position: fixed;
+  line-height: 15px;
+}
+.icon{
+  display: flex;
+  gap: 20px;
+}
+.icon :hover{
+  opacity: 0.6;
+}
+.cont{
+  margin-top: 10px;
+  
+}
